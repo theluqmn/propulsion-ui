@@ -6,7 +6,12 @@
 
 → [NPM]
 
+> [!NOTE]
+> Propulsion UI is not yet ready for production use.
+
 A component library with a look inspired by the technicality and sophistication found inside an aircraft cockpit/flight deck. Propulsion UI is originally built to standardise the components across my projects. Created using [SolidJS](https://www.solidjs.com) and [TailwindCSS](https://tailwindcss.com).
+
+Propulsion UI has built-in support for light mode - simply include `light="true"` to the your components.
 
 ## Components
 

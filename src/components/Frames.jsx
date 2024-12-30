@@ -21,4 +21,3 @@ export const FrameWithHeading = (props) => {
         </div>
     )
 }
-        
