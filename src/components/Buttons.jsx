@@ -5,7 +5,7 @@ export const Button = (props) => {
     const hoverTextColor = props.light ? 'hover:text-[rgb(0,0,0)]' : 'hover:text-[rgb(225,225,225)]';
 
     return (
-        <div class="p-1 inline-block rounded-md bg-[rgb(20,20,20)]">
+        <div class="p-2 inline-block rounded-md bg-[rgb(20,20,20)]">
             <button 
                 class={`p-2 rounded-md w-full ${baseBgColor} ${textColor} font-mono ${hoverBgColor} ${hoverTextColor} duration-300`} 
                 onclick={props.onClick}
@@ -18,8 +18,8 @@ export const Button = (props) => {
 
 export const ButtonWithInlineText = (props) => {
     return (
-        <div class="p-1 flex flex-row gap-2 items-center">
-            <div class="p-1 inline-block rounded-md bg-[rgb(20,20,20)]">
+        <div class="flex flex-row gap-2 items-center">
+            <div class="p-2 inline-block rounded-md bg-[rgb(20,20,20)]">
                 <button class="p-2 rounded-md w-full text-white font-mono bg-[rgb(30,30,30)] hover:bg-[rgb(20,20,20)] hover:text-[rgb(225,225,225)] duration-300" onclick={props.onClick}>
                     {props.buttonText}
                 </button>

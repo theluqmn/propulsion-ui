@@ -14,9 +14,10 @@ export default function App() {
             <ButtonWithInlineText buttonText="Select" text="Click Me" />
 
             <Frame>
-                <p class="text-white">
-                    Hello World, this is inside a frame?!
-                </p>
+                <div class="grid grid-cols-2 gap-4">
+                    <Button text="Click Me" light="true" />
+                    <Button text="Click Me" light="true" />
+                </div>
             </Frame>
         </div>
     );
