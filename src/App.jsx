@@ -1,9 +1,9 @@
-import { TextFramed } from "./components/Text";
+import { TextWithHeading } from "./components/Text";
 
 export default function App() {
   return (
-    <div className="App">
-      <TextFramed text="Hello World" />
+    <div class="p-4 flex flex-col gap-4">
+      <TextWithHeading heading="Testing" text="Hello World" />
     </div>
   );
 }
