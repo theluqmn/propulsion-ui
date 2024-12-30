@@ -1,5 +1,5 @@
 import { TextWithHeading, Text } from "./components/Texts";
-import { Button } from "./components/Buttons";
+import { Button, ButtonWithInlineText } from "./components/Buttons";
 
 export default function App() {
     return (
@@ -8,8 +8,9 @@ export default function App() {
                 <TextWithHeading heading="Testing" text="Hello World" />
                 <Text text="This is an epic text" />
 
+                <Button text="Click Me" />
+                <ButtonWithInlineText buttonText="Select" text="Click Me" />
             </div>
-            <Button text="Click Me" />
         </div>
     );
 }
