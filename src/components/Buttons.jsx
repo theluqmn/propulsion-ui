@@ -1,8 +1,8 @@
 export const Button = (props) => {
-    const baseBgColor = props.contrast ? 'bg-[rgb(255,255,255)]' : 'bg-[rgb(30,30,30)]';
-    const hoverBgColor = props.contrast ? 'hover:bg-[rgb(245,245,245)]' : 'hover:bg-[rgb(20,20,20)]';
-    const textColor = props.contrast ? 'text-black' : 'text-white';
-    const hoverTextColor = props.contrast ? 'hover:text-[rgb(0,0,0)]' : 'hover:text-[rgb(225,225,225)]';
+    const baseBgColor = props.light ? 'bg-[rgb(225,225,225)]' : 'bg-[rgb(30,30,30)]';
+    const hoverBgColor = props.light ? 'hover:bg-[rgb(235,235,235)]' : 'hover:bg-[rgb(20,20,20)]';
+    const textColor = props.light ? 'text-black' : 'text-white';
+    const hoverTextColor = props.light ? 'hover:text-[rgb(0,0,0)]' : 'hover:text-[rgb(225,225,225)]';
 
     return (
         <div class="p-1 inline-block rounded-md bg-[rgb(20,20,20)]">
