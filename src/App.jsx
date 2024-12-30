@@ -9,7 +9,7 @@ export default function App() {
             <Text text="This is an epic text" />
             <TextLink href="https://google.com" text="Google" />
 
-            <Button text="Click Me" />
+            <Button text="Click Me" contrast="true" />
             <ButtonWithInlineText buttonText="Select" text="Click Me" />
 
             <Frame>
