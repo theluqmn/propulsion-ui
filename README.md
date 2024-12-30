@@ -10,7 +10,7 @@ A component library with a look inspired by the technicality and sophistication 
 
 ## Components
 
-Below are a list of the components available in Propulsion UI.
+Below are a list of the components available in Propulsion UI:
 
 ### Text
 
@@ -26,3 +26,4 @@ Below are a list of the components available in Propulsion UI.
 ### Frames
 
 - [x] Frame
+- [x] Frame with heading
