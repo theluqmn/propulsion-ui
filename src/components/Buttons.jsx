@@ -19,7 +19,7 @@ export const ButtonWithInlineText = (props) => {
 
             <div class="p-2 rounded-md w-full bg-[rgb(20,20,20)] duration-300">
                 <div class="p-2 rounded-md bg-black">
-                    <p class="text-white font-mono">
+                    <p class="text-white font-mono hover:text-[rgb(225,225,225)] duration-300">
                         {props.text}
                     </p>
                 </div>
