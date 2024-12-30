@@ -15,9 +15,14 @@ Below are a list of the components available in Propulsion UI.
 ### Text
 
 - [x] Text
+- [x] Text with link
 - [x] Text with heading
 
 ### Buttons
 
 - [x] Button
 - [x] Button with inline text
+
+### Frames
+
+- [x] Frame
