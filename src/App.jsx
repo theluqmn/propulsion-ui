@@ -1,4 +1,4 @@
-import { TextWithHeading, Text } from "./components/Text";
+import { TextWithHeading, Text } from "./components/Texts";
 
 export default function App() {
     return (
