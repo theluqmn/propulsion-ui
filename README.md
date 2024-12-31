@@ -31,4 +31,5 @@ Below are a list of the components available in Propulsion UI:
 ### Frames
 
 - [x] Frame
+- [x] Frame (solid)
 - [x] Frame with heading
