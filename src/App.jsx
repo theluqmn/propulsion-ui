@@ -1,5 +1,5 @@
 import { Frame, FrameSolid, FrameWithHeading } from "./components/Frames";
-import { Text, TextWithHeading, TextLink } from "./components/Texts";
+import { Text, TextSolid, TextWithHeading, TextLink } from "./components/Texts";
 import { Button, ButtonSolid, ButtonWithInlineText } from "./components/Buttons";
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
             </header>
 
             <div class="p-4 flex flex-col gap-4">
-                <div class="pt-16 pb-16">
+                <div class="pt-16 pb-16 flex flex-col gap-4">
                     <FrameSolid>
                         <div class="flex flex-col gap-4">
                             <h1 class="text-4xl md:text-5xl font-semibold font-mono text-[rgb(52,152,219)]">
@@ -41,6 +41,11 @@ export default function App() {
                             </div>
                         </div>
                     </FrameSolid>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <TextWithHeading heading="Light Mode" text="Simply use the light='true' prop to enable light mode on any component." />
+                        <TextWithHeading heading="Effects" text="Propulsion UI components have built-in hover effects." />
+                    </div>
                 </div>
 
                 <div class="md:w-2/3 flex flex-col gap-4">
@@ -62,7 +67,7 @@ export default function App() {
                         <FrameSolid>
                             <div class="flex flex-col gap-4">
                                 <p class="text-lg font-mono text-[rgb(225,225,225)]">
-                                    Button (Solid)
+                                    Button (solid)
                                 </p>
                                 <ButtonSolid text="Click me!" />
                             </div>
@@ -83,6 +88,15 @@ export default function App() {
                                     Text
                                 </p>
                                 <Text text="Hello World!" />
+                            </div>
+                        </FrameSolid>
+
+                        <FrameSolid>
+                            <div class="flex flex-col gap-4">
+                                <p class="text-lg font-mono text-[rgb(225,225,225)]">
+                                    Text (solid)
+                                </p>
+                                <TextSolid text="SolidJS > React" />
                             </div>
                         </FrameSolid>
 

@@ -24,6 +24,7 @@ Below are a list of the components available in Propulsion UI:
 ### Buttons
 
 - [x] Button
+- [x] Button (solid)
 - [x] Button with inline text
 
 ### Frames
