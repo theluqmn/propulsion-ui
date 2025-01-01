@@ -6,9 +6,12 @@ export default function App() {
     return (
         <div>
             <header class="p-4 flex flex-row justify-between items-center bg-[rgb(225,225,225)]">
-                <h1 class="text-2xl font-semibold font-mono text-black">
-                    Propulsion UI
-                </h1>
+                <div class="flex flex-row gap-4 justify-center items-center">
+                    <img src="../src/icon.png" alt="Propulsion UI" class="w-10 h-10" />
+                    <h1 class="text-2xl font-semibold font-mono text-black">
+                        Propulsion UI
+                    </h1>
+                </div>
 
                 <Frame light="true">
                     <div class="flex flex-row gap-4 font-semibold">
