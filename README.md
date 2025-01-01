@@ -11,6 +11,21 @@ A component library with a look inspired by the technicality and sophistication 
 
 Propulsion UI has built-in support for light mode - simply include `light="true"` to the your components.
 
+## Installation
+
+1. Run `npm install @theluqmn/propulsion-ui`
+2. Add the following to your `tailwind.config.js` file:
+
+```js
+module.exports = {
+    content: [
+        "./node_modules/@theluqmn/propulsion-ui/dist/**/*.js",
+    ],
+}
+```
+
+That's it really.
+
 ## Components
 
 Below are a list of the components available in Propulsion UI:

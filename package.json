@@ -1,6 +1,6 @@
 {
   "name": "@theluqmn/propulsion-ui",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "",
   "scripts": {
     "start": "vite",
@@ -9,12 +9,12 @@
     "serve": "vite preview"
   },
   "type": "module",
-  "main": "dist/my-solid-library.cjs.js",
-  "module": "dist/my-solid-library.es.js",
+  "main": "dist/propulsion-ui.cjs.js",
+  "module": "dist/propulsion-ui.es.js",
   "exports": {
     ".": {
-      "import": "./dist/my-solid-library.es.js",
-      "require": "./dist/my-solid-library.cjs.js"
+      "import": "./dist/propulsion-ui.es.js",
+      "require": "./dist/propulsion-ui.cjs.js"
     }
   },
   "peerDependencies": {
