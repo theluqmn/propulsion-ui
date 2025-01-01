@@ -1,4 +1,4 @@
-# Pro
+# Propulsion UI Docs
 
 **Designed and developed by:** [Luqman](https://theluqmn.github.io)
 
