@@ -1,4 +1,4 @@
-export const Text = (props) => {
+const Text = (props) => {
     return (
         <div class="p-2 rounded-md bg-[rgb(20,20,20)]">
             <div class="p-2 rounded-md bg-black">
@@ -9,3 +9,5 @@ export const Text = (props) => {
         </div>
     )
 }
+
+export default Text

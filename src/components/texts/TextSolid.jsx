@@ -1,4 +1,4 @@
-export const TextSolid = (props) => {
+const TextSolid = (props) => {
     return (
         <div class="p-4 rounded-md bg-black">
             <p class="text-white font-mono text-sm md:text-base hover:text-[rgb(225,225,225)] duration-300">
@@ -7,3 +7,5 @@ export const TextSolid = (props) => {
         </div>
     )
 }
+
+export default TextSolid

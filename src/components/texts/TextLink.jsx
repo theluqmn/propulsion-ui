@@ -1,4 +1,4 @@
-export const TextLink = (props) => {
+const TextLink = (props) => {
     return (
         <div class="p-2 rounded-md bg-[rgb(20,20,20)] duration-300">
             <div class="p-2 rounded-md bg-black">
@@ -9,3 +9,5 @@ export const TextLink = (props) => {
         </div>
     )
 }
+
+export default TextLink

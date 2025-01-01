@@ -1,6 +1,3 @@
-import { Frame, FrameSolid, FrameWithHeading } from "./components/Frames";
-import { Text, TextSolid, TextWithHeading, TextLink } from "./components/Texts";
-import { Button, ButtonSolid, ButtonWithInlineText } from "./components/Buttons";
 
 export default function App() {
     return (

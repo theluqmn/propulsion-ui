@@ -1,4 +1,4 @@
-export const TextWithHeading = (props) => {
+const TextWithHeading = (props) => {
     return (
         <div class="p-2 flex flex-col gap-2 rounded-md bg-[rgb(20,20,20)]">
             <h1 class="text-lg text-[rgb(225,225,225)] font-mono font-semibold">
@@ -13,3 +13,5 @@ export const TextWithHeading = (props) => {
         </div>
     )
 }
+
+export default TextWithHeading

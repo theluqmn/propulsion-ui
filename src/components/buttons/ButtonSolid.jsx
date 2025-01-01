@@ -1,4 +1,4 @@
-export const ButtonSolid = (props) => {
+const ButtonSolid = (props) => {
     const baseBgColor = props.light ? 'bg-[rgb(225,225,225)]' : 'bg-[rgb(30,30,30)]';
     const hoverBgColor = props.light ? 'hover:bg-[rgb(205,205,205)]' : 'hover:bg-[rgb(20,20,20)]';
     const textColor = props.light ? 'text-black' : 'text-white';
@@ -13,3 +13,5 @@ export const ButtonSolid = (props) => {
         </button>
     );
 }
+
+export default ButtonSolid

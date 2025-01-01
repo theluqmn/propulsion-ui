@@ -1,4 +1,4 @@
-export const FrameSolid = (props) => {
+const FrameSolid = (props) => {
     const baseColor = props.light ? 'bg-[rgb(225,225,225)]' : 'bg-[rgb(10,10,10)]';
 
     return  (
@@ -7,3 +7,5 @@ export const FrameSolid = (props) => {
         </div>
     )
 }
+
+export default FrameSolid

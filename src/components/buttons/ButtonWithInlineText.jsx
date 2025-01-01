@@ -1,4 +1,4 @@
-export const ButtonWithInlineText = (props) => {
+const ButtonWithInlineText = (props) => {
     return (
         <div class="flex flex-row gap-2 items-center">
             <div class="p-2 inline-block rounded-md bg-[rgb(20,20,20)]">
@@ -17,3 +17,5 @@ export const ButtonWithInlineText = (props) => {
         </div>
     )
 }
+
+export default ButtonWithInlineText

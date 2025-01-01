@@ -1,4 +1,4 @@
-export const Button = (props) => {
+const Button = (props) => {
     const baseBgColor = props.light ? 'bg-[rgb(225,225,225)]' : 'bg-[rgb(30,30,30)]';
     const outlineColor = props.light ? 'bg-[rgb(205,205,205)]' : 'bg-[rgb(20,20,20)]';
     const hoverBgColor = props.light ? 'hover:bg-[rgb(205,205,205)]' : 'hover:bg-[rgb(20,20,20)]';
@@ -16,3 +16,5 @@ export const Button = (props) => {
         </div>
     );
 }
+
+export default Button

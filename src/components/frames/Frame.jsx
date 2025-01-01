@@ -1,4 +1,4 @@
-export const Frame = (props) => {
+const Frame = (props) => {
     const baseColor = props.light ? 'bg-[rgb(225,225,225)]' : 'bg-[rgb(0,0,0)]';
     const outlineColor = props.light ? 'bg-[rgb(205,205,205)]' : 'bg-[rgb(20,20,20)]';
 
@@ -10,3 +10,5 @@ export const Frame = (props) => {
         </div>
     )
 }
+
+export default Frame
