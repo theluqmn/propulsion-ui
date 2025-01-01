@@ -1,3 +1,4 @@
+import * as Components from  "@theluqmn/propulsion-ui"
 
 export default function App() {
     return (

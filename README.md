@@ -18,6 +18,7 @@ Below are a list of the components available in Propulsion UI:
 ### Text
 
 - [x] Text
+- [x] Text (solid)
 - [x] Text with link
 - [x] Text with heading
 
