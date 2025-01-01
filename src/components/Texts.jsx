@@ -2,7 +2,7 @@ export const Text = (props) => {
     return (
         <div class="p-2 rounded-md bg-[rgb(20,20,20)]">
             <div class="p-2 rounded-md bg-black">
-                <p class="text-white font-mono hover:text-[rgb(225,225,225)] duration-300">
+                <p class="text-white font-mono text-sm md:text-base hover:text-[rgb(225,225,225)] duration-300">
                     {props.text}
                 </p>
             </div>
@@ -18,7 +18,7 @@ export const TextWithHeading = (props) => {
             </h1>
 
             <div class="p-2 rounded-md bg-black">
-                <p class="text-white font-mono hover:text-[rgb(225,225,225)] duration-300">
+                <p class="text-white font-mono text-sm md:text-base hover:text-[rgb(225,225,225)] duration-300">
                     {props.text}
                 </p>
             </div>
@@ -30,7 +30,7 @@ export const TextLink = (props) => {
     return (
         <div class="p-2 rounded-md bg-[rgb(20,20,20)] duration-300">
             <div class="p-2 rounded-md bg-black">
-                <a class="text-[rgb(174,214,241)] font-mono hover:text-[rgb(52,152,219)] duration-300" href={props.href}>
+                <a class="text-[rgb(174,214,241)] font-mono text-sm md:text-base hover:text-[rgb(52,152,219)] duration-300" href={props.href}>
                     {props.text}
                 </a>
             </div>
