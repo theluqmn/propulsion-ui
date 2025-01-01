@@ -1,4 +1,13 @@
-import * as Components from  "@theluqmn/propulsion-ui"
+import Frame from "./components/frames/Frame";
+import FrameSolid from "./components/frames/FrameSolid";
+
+import Button from "./components/buttons/Button";
+import ButtonSolid from "./components/buttons/ButtonSolid";
+import ButtonWithInlineText from "./components/buttons/ButtonWithInlineText";
+import Text from "./components/texts/Text";
+import TextSolid from "./components/texts/TextSolid";
+import TextLink from "./components/texts/TextLink";
+import TextWithHeading from "./components/texts/TextWithHeading";
 
 export default function App() {
     return (
