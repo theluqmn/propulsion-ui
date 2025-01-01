@@ -2,7 +2,7 @@
 
 **Designed and developed by** [Luqman](https://theluqmn.github.io)
 
-→ [Demo](https://theluqmn.github.io/propulsion-ui)
+→ [Demo](https://theluqmn.github.io/pro)
 
 > [!NOTE]
 > Propulsion UI is not yet ready for production use.
