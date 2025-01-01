@@ -1,6 +1,6 @@
 import { Frame, FrameSolid, FrameWithHeading } from "./components/Frames";
 import { Text, TextWithHeading, TextLink } from "./components/Texts";
-import { Button, ButtonWithInlineText } from "./components/Buttons";
+import { Button, ButtonSolid, ButtonWithInlineText } from "./components/Buttons";
 
 export default function App() {
     return (
@@ -48,51 +48,59 @@ export default function App() {
                         Components
                     </h1>
 
-                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 justify-between">
                         <FrameSolid>
                             <div class="flex flex-col gap-4">
-                                <Button text="Launch Now" />
-
                                 <p class="text-lg font-mono text-[rgb(225,225,225)]">
                                     Button
                                 </p>
+                                <Button text="Launch Now" />
                             </div>
 
                         </FrameSolid>
 
                         <FrameSolid>
                             <div class="flex flex-col gap-4">
-                                <ButtonWithInlineText buttonText="Open" text="github repository" href="https://github.com/theluqmn/propulsion-ui" />
+                                <p class="text-lg font-mono text-[rgb(225,225,225)]">
+                                    Button (Solid)
+                                </p>
+                                <ButtonSolid text="Click me!" />
+                            </div>
+                        </FrameSolid>
+
+                        <FrameSolid>
+                            <div class="flex flex-col gap-4">
                                 <p class="text-lg font-mono text-[rgb(225,225,225)]">
                                     Button with inline text
                                 </p>
+                                <ButtonWithInlineText buttonText="Open" text="github repository" href="https://github.com/theluqmn/propulsion-ui" />
                             </div>
                         </FrameSolid>
 
                         <FrameSolid>
                             <div class="flex flex-col gap-4">
-                                <Text text="Hello World!" />
                                 <p class="text-lg font-mono text-[rgb(225,225,225)]">
                                     Text
                                 </p>
+                                <Text text="Hello World!" />
                             </div>
                         </FrameSolid>
 
                         <FrameSolid>
                             <div class="flex flex-col gap-4">
-                                <TextLink text="Click me!" href="https://github.com/theluqmn/propulsion-ui" />
                                 <p class="text-lg font-mono text-[rgb(225,225,225)]">
                                     Text link
                                 </p>
+                                <TextLink text="Click me!" href="https://github.com/theluqmn/propulsion-ui" />
                             </div>
                         </FrameSolid>
 
                         <FrameSolid>
                             <div class="flex flex-col gap-4">
-                                <TextWithHeading text="No idea" heading="What's this?" />
                                 <p class="text-lg font-mono text-[rgb(225,225,225)]">
                                     Text with heading
                                 </p>
+                                <TextWithHeading text="No idea" heading="What's this?" />
                             </div>
                         </FrameSolid>
                     </div>
