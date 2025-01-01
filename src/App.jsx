@@ -24,7 +24,7 @@ export default function App() {
 
                 <Frame light="true">
                     <div class="flex flex-row gap-4 font-semibold">
-                        <a href={icon} class="text-black">
+                        <a href="https://github.com/theluqmn" class="text-black">
                             GitHub
                         </a>
 
@@ -107,7 +107,7 @@ export default function App() {
                                 <p class="text-lg font-mono text-[rgb(225,225,225)]">
                                     Text
                                 </p>
-                                <Text text="Hello World!" />
+                                <Text text="Hello World!" size="text-xl" />
                             </div>
                         </FrameSolid>
 
